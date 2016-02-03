@@ -4,7 +4,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RestController(value = "/example/handlers")
+@RestController
+@RequestMapping("/example/handlers")
 public class HelloController {
 
     @RequestMapping(value = "/firstMethodHandler", method = RequestMethod.POST)
@@ -16,6 +17,6 @@ public class HelloController {
     @RequestMapping(value = "/firstMethodHandler", method = RequestMethod.GET)
     public String simpleHelloMethodGet() {
 
-        return "Hello World: ";
+        return "Hello World: GET";
     }
 }
