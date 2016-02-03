@@ -1,0 +1,9 @@
+deploy:
+  provider: openshift
+  user: igorce@gmail.com
+  password:
+    secure: vLOOccyAKWGXXrQXmTFf1jRaetqFC9EZMWyMVJPdUMw9JIa5YvEmoP8FO6J4/Vhcffz2BikcUkeHK4kpbHs93+SL742W0ARGsOWmcpuqGxuKeYR+Rj6lB8HDBBJqFqDAI9bx7MtE+swakzUKrujRl0KTbUSiuMZe7h9W/0s53ULPyUsRxyBbmESpn/fdwrWyMXYYFdSoCFOPuU1UqpFTU66yiBBVyHOyTr9f6t0rgCC0/hwPuv1Cot2MCTkpHV1zgjXa1pwBSOeU5D8roTaJiFk3TEAPwKFPVP5BP7RwJ0T7d4LPhUWUDCOkO1Cdkrz3TG807rsrr45wlw9SeR2lGJtZiyiOKupn3ueQ5xLYBvVMc8O3vzzVypBgFs3mHC3wvgUYjn73vRYJt7WHmJwGisol8vw1/3nWwGrocrjasz19S+0OEMVwGVmdLVotd5PCqjYoZHkzDZvl7EKXyaNB9EafnNPN87hASBsVskf6QqoF/7C4HxnkrMNumEK8UjiVuQH5v4yMBzKiS8+iRkCfGQFum2FrVyYJw+B44FAujLosUGaXun2Bpo1fT9s891p7++V2hejZQo4eEkgYRiSgmAR/M6A1R8967/sAC+7V+N8lsUH0vIWeF2TVSlP/BDc0MSC3yNJ98T0KX6cjp4lpobVNDPqZiY9i9NalybJOM3Y=
+  app: diy
+  domain: postfacto
+  on:
+    repo: Programirame/SpringBootBabySteps
