@@ -17,6 +17,6 @@ public class HelloController {
     @RequestMapping(value = "/firstMethodHandler", method = RequestMethod.GET)
     public String simpleHelloMethodGet() {
 
-        return "Hello World: GET WOOOHOOO";
+        return "Hello World: GET WOOOHOOO 1";
     }
 }
