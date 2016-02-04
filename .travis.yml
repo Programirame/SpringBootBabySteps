@@ -1,6 +1,6 @@
 language: java
 jdk:
-- oraclejdk8
+- oraclejdk7
 deploy:
   skip_cleanup: true
   provider: openshift
