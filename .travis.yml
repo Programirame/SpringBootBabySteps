@@ -4,16 +4,15 @@ jdk:
 script:
  - mvn clean install -DskipTests=true
 deploy:
-#  skip_cleanup: true
-#- provider: openshift
-#  user: igorce@gmail.com
-#  password:
-#    secure: vLOOccyAKWGXXrQXmTFf1jRaetqFC9EZMWyMVJPdUMw9JIa5YvEmoP8FO6J4/Vhcffz2BikcUkeHK4kpbHs93+SL742W0ARGsOWmcpuqGxuKeYR+Rj6lB8HDBBJqFqDAI9bx7MtE+swakzUKrujRl0KTbUSiuMZe7h9W/0s53ULPyUsRxyBbmESpn/fdwrWyMXYYFdSoCFOPuU1UqpFTU66yiBBVyHOyTr9f6t0rgCC0/hwPuv1Cot2MCTkpHV1zgjXa1pwBSOeU5D8roTaJiFk3TEAPwKFPVP5BP7RwJ0T7d4LPhUWUDCOkO1Cdkrz3TG807rsrr45wlw9SeR2lGJtZiyiOKupn3ueQ5xLYBvVMc8O3vzzVypBgFs3mHC3wvgUYjn73vRYJt7WHmJwGisol8vw1/3nWwGrocrjasz19S+0OEMVwGVmdLVotd5PCqjYoZHkzDZvl7EKXyaNB9EafnNPN87hASBsVskf6QqoF/7C4HxnkrMNumEK8UjiVuQH5v4yMBzKiS8+iRkCfGQFum2FrVyYJw+B44FAujLosUGaXun2Bpo1fT9s891p7++V2hejZQo4eEkgYRiSgmAR/M6A1R8967/sAC+7V+N8lsUH0vIWeF2TVSlP/BDc0MSC3yNJ98T0KX6cjp4lpobVNDPqZiY9i9NalybJOM3Y=
-#  app: diy
-#  domain: postfacto
-#  on:
-#    repo: Programirame/SpringBootBabySteps
-provider: heroku
-  app: springbootbabysteps    
+# - provider: openshift
+#   user: igorce@gmail.com
+#   password:
+#     secure: vLOOccyAKWGXXrQXmTFf1jRaetqFC9EZMWyMVJPdUMw9JIa5YvEmoP8FO6J4/Vhcffz2BikcUkeHK4kpbHs93+SL742W0ARGsOWmcpuqGxuKeYR+Rj6lB8HDBBJqFqDAI9bx7MtE+swakzUKrujRl0KTbUSiuMZe7h9W/0s53ULPyUsRxyBbmESpn/fdwrWyMXYYFdSoCFOPuU1UqpFTU66yiBBVyHOyTr9f6t0rgCC0/hwPuv1Cot2MCTkpHV1zgjXa1pwBSOeU5D8roTaJiFk3TEAPwKFPVP5BP7RwJ0T7d4LPhUWUDCOkO1Cdkrz3TG807rsrr45wlw9SeR2lGJtZiyiOKupn3ueQ5xLYBvVMc8O3vzzVypBgFs3mHC3wvgUYjn73vRYJt7WHmJwGisol8vw1/3nWwGrocrjasz19S+0OEMVwGVmdLVotd5PCqjYoZHkzDZvl7EKXyaNB9EafnNPN87hASBsVskf6QqoF/7C4HxnkrMNumEK8UjiVuQH5v4yMBzKiS8+iRkCfGQFum2FrVyYJw+B44FAujLosUGaXun2Bpo1fT9s891p7++V2hejZQo4eEkgYRiSgmAR/M6A1R8967/sAC+7V+N8lsUH0vIWeF2TVSlP/BDc0MSC3yNJ98T0KX6cjp4lpobVNDPqZiY9i9NalybJOM3Y=
+#   app: diy
+#   domain: postfacto
+#   on:
+#     repo: Programirame/SpringBootBabySteps
+- provider: heroku
+  app: springbootbabysteps
   api_key:
     secure: GIK3VSNIhPI8QbjtOA+OQmECpl1TtzwcNAEWL88UNIs3oID8tDeOhEZPxtpFf7mSZUF9CgWto6vd/9wenrDsCrKVfxF03y1vfWCEcDQFC8z5rYiFdpRM6Ry4C4Ay/64r4Cb7AV7yqwJbDeIU3p5w0y2gVoYQvI4gbGjEjd9MN7N/yF5juG9knwMxAi3XP4or06xEQcd/zSKqNToxyM/31m53YMrPuO13ukYff3RKLsbneJIWaLfgWiF8v3GPiZvDuXUhZzHAhE36OKNrOpa88vgbnctCAhTs0DFgKnOtbYDPaS26eDvTSzui3v7u7SkFnWv4mDKdQ5/Uqy3/zSNxvS+q+DeosdfmVtSs7izkvp07Y3117QnYJNsQAuQB/59JcpB2p/plNpPGU7WzDSJT7G6C285gvXOucZjbOWaSLrUWepz44Ey9E1CtL3V+TSDOemohTi306VjykKDrwj7+Yxv8Rsy9vVCkcqV8qgObMakjbey3CUsHBAxGLjAWgS7+dJGOE+mK1ao9tbgJakv0JWkKscbgozTdw/ZQ5C+M9XR+sgWCkgAG3TZ86LTW6ivk0+xx/iANbWhyZCUNyyJcgIvEFmPCFJOQ+2uAlEQ7ag4XuvLp4pKKeBLff9nzDyFpkLZa4tPpQzxHK52XicuvEW2AZAERq2rdqavwT2BkzFE=    
